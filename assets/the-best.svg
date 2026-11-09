@@ -1,0 +1,8 @@
+<svg font-family="-apple-system-body, ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-weight="400" fill="currentColor" height="130" viewBox="0 0 260 130" width="260" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24 110H236" stroke="#877B6B" stroke-width=".8"/>
+  <path d="M53 110 A77 77 0 0 1 207 110" fill="none" stroke="#BC997A" stroke-width="1.5"/>
+  <path d="M72 110 A58 58 0 0 1 188 110" fill="none" stroke="#8D806D" stroke-width=".8" stroke-dasharray="2 6"/>
+  <circle cx="130" cy="102" r="29" fill="#A88D70" opacity=".75"/>
+  <path d="M48 110H212" stroke="#D1B8A0" stroke-width="1.5"/>
+  <path d="M37 120H223 M72 126H188" stroke="#817767" stroke-width=".7"/>
+</svg>

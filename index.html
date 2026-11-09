@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A quiet letter for the days ahead — with hope for healing, peace, and kinder tomorrows."
+    />
+    <meta name="theme-color" content="#252725" />
+    <title>For the Days Ahead</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <noscript>
+      <style>
+        body.letter-closed .letter-reveal {
+          grid-template-rows: 1fr;
+          opacity: 1;
+        }
+        body.letter-closed .letter {
+          transform: none;
+        }
+      </style>
+    </noscript>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="letter-closed">
+    <a class="skip-link" href="#letter">Skip to the letter</a>
+
+    <div class="reading-progress" aria-hidden="true">
+      <span class="reading-progress__track"></span>
+      <span class="reading-progress__line"></span>
+      <span class="reading-progress__label">A quiet beginning</span>
+    </div>
+
+    <header class="hero" id="opening">
+      <div class="hero__wash" aria-hidden="true"></div>
+      <div class="hero__topline">
+        <p class="eyebrow">A letter, just for you.</p>
+        <!-- <span class="star-mark" aria-hidden="true">✦</span> -->
+      </div>
+
+      <div class="hero__content">
+        <figure class="sunrise" aria-hidden="true">
+          <img src="assets/the-best.svg" alt="" width="260" height="130" />
+        </figure>
+
+        <p class="hero__kicker">Some words are worth saying</p>
+        <h1>For the days ahead.</h1>
+        <p class="hero__subtitle">
+          May they be kinder. May they be brighter.<br />
+          May they bring you back to yourself.
+        </p>
+
+        <button
+          class="letter-button"
+          type="button"
+          aria-controls="letter"
+          aria-expanded="false"
+        >
+          <span>Read the letter</span>
+          <svg viewBox="0 0 18 18" aria-hidden="true">
+            <path d="M5 13 13 5M7 5h6v6" />
+          </svg>
+        </button>
+        <p class="hero__caption">Take your time. There’s no rush.</p>
+      </div>
+
+      <button class="scroll-cue" type="button" aria-label="Read the letter">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 4v15M6.5 13.5 12 19l5.5-5.5" />
+        </svg>
+      </button>
+    </header>
+
+    <div class="letter-reveal" id="letter" aria-hidden="true">
+      <main class="letter">
+        <section class="threshold" aria-label="The letter begins">
+          <p class="threshold__note reveal">
+            There is no question here. Only a wish.
+          </p>
+          <div class="threshold__rule reveal" aria-hidden="true">
+            <span>01</span>
+          </div>
+        </section>
+
+        <section
+          class="chapter chapter--wish"
+          id="the-wish"
+          aria-labelledby="wish-title"
+        >
+          <div class="chapter__aside reveal">
+            <span>Chapter I</span>
+            <span class="chapter__folio">01 / 03</span>
+          </div>
+
+          <div class="chapter__content">
+            <p class="chapter__eyebrow reveal">The wish</p>
+            <h2 class="reveal" id="wish-title">
+              <em>May tomorrow</em><br />be kinder.
+            </h2>
+
+            <div class="chapter__copy chapter__copy--split">
+              <p class="lead reveal">
+                More than anything, I hope the days ahead meet you gently — with
+                the kind of rest that reaches deeper than sleep, and the quiet
+                strength to feel like yourself again.
+              </p>
+              <div class="body-copy reveal">
+                <p>
+                  I hope recovery comes without hurry. That each morning carries
+                  a little less weight, and each evening leaves you with a
+                  little more peace.
+                </p>
+                <p>
+                  May there be good news. Easy laughter. Food that tastes right
+                  again. Windows open to fresh air. All the ordinary things that
+                  become precious when they return.
+                </p>
+                <p>
+                  You deserve time that asks nothing of you except to heal. Let
+                  the world wait while you do.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <blockquote class="margin-quote reveal">
+            <p>“Healing has its own weather. Let it change at its own pace.”</p>
+          </blockquote>
+        </section>
+
+        <div class="interlude interlude--wine" aria-hidden="true">
+          <span class="interlude__line"></span>
+          <span class="interlude__sun"></span>
+          <span class="interlude__line"></span>
+        </div>
+
+        <section
+          class="chapter chapter--unsaid"
+          id="the-unsaid"
+          aria-labelledby="unsaid-title"
+        >
+          <div class="chapter__aside reveal">
+            <span>Chapter II</span>
+            <span class="chapter__folio">02 / 03</span>
+          </div>
+
+          <div class="chapter__content chapter__content--narrow">
+            <p class="chapter__eyebrow reveal">The unsaid</p>
+            <h2 class="reveal" id="unsaid-title">
+              Some things deserve<br /><em>better words.</em>
+            </h2>
+
+            <div class="apology-card reveal">
+              <span class="apology-card__mark" aria-hidden="true">II</span>
+              <div class="body-copy">
+                <p>
+                  There are words I spoke from anger and hurt that should never
+                  have been placed between us. They were unfair, and I am sorry
+                  for the harm they may have caused.
+                </p>
+                <p>
+                  I won’t dress that apology in explanations or ask you to make
+                  it easier for me. I only want to name the mistake plainly: you
+                  deserved more care than I gave in those moments.
+                </p>
+                <p>
+                  This is not an attempt to reopen what has already been
+                  difficult. It is simply the truth I should have offered with
+                  calmer hands, and better words.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <p class="side-note reveal">
+            No reply is needed.<br />No forgiveness is being asked for.
+          </p>
+        </section>
+
+        <div class="paper-turn" aria-hidden="true">
+          <span>Let the difficult things rest here.</span>
+        </div>
+
+        <section
+          class="chapter chapter--ahead"
+          id="whatever-comes-next"
+          aria-labelledby="ahead-title"
+        >
+          <div class="chapter__aside reveal">
+            <span>Chapter III</span>
+            <span class="chapter__folio">03 / 03</span>
+          </div>
+
+          <div class="chapter__content">
+            <p class="chapter__eyebrow reveal">For whatever comes next</p>
+            <h2 class="reveal" id="ahead-title">
+              May life surprise you<br /><em>in beautiful ways.</em>
+            </h2>
+
+            <div
+              class="chapter__copy chapter__copy--split chapter__copy--closing"
+            >
+              <p class="lead reveal">
+                I hope you find your way toward days that feel open again — days
+                full of health, purpose, small adventures, and reasons to look
+                forward.
+              </p>
+              <div class="body-copy reveal">
+                <p>
+                  Whatever shape the future takes, I hope it is generous with
+                  you. I hope you keep the people who bring you peace close, and
+                  discover places that make the world feel new.
+                </p>
+                <p>
+                  You have mattered in my life. That remains true without
+                  needing anything in return — not an answer, not a different
+                  ending, not even a place in what comes next.
+                </p>
+                <p>
+                  Some chapters change us even after they close. I am grateful
+                  for what was good, and I am ready to leave the rest without
+                  bitterness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="closing" id="closing">
+          <div class="closing__sun reveal" aria-hidden="true">
+            <span></span>
+          </div>
+          <p class="closing__wish reveal">
+            Be well. Be happy. Be here for all the good that is still coming.
+          </p>
+          <p class="closing__signoff reveal">With care, <em>always.</em></p>
+          <a class="back-to-top reveal" href="#opening">
+            <span>Return to the beginning</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M10 16V4M5.5 8.5 10 4l4.5 4.5" />
+            </svg>
+          </a>
+          <p class="closing__fineprint">
+            For the days ahead <span>✦</span> Written with hope
+          </p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
